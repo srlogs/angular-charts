@@ -27,6 +27,12 @@ export class BubblechartComponent implements OnInit {
       }]
     }
   };
+  public bubbleChartColors : Color[] = [
+    {
+      borderColor: 'black',
+      backgroundColor: 'rgba(255,255,0,0.28)',
+    },
+  ];
   public bubbleChartType: ChartType = 'bubble';
   public bubbleChartLegend = true;
 
